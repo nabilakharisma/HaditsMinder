@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/latarprofil"
+    tools:context=".Fragment.ProfileFragment">
+
+    <RelativeLayout
+        android:id="@+id/rv_header"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/hijautua">
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:text="Profil"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/hijaumuda"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_quote"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="192dp"
+        android:gravity="center"
+        android:text="@string/salam"
+        android:textColor="#003C43"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_quote"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-120dp"
+        android:gravity="center"
+        android:text="Nabila Kharisma"
+        android:textColor="#003C43"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-56dp"
+        android:backgroundTint="@color/hijautua"
+        android:text="Log Out" />
+
+</RelativeLayout>

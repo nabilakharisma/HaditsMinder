@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/hadist"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/tv_judulhadistinggris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relevation"
+            android:textStyle="bold|italic"
+            android:textColor="@color/hijau"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/tv_judulhadistarab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/hijau"
+            android:text=" كتاب بدء الوحى"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_isihadistarab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/hijau"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="@string/hadistarab"/>
+
+        <TextView
+            android:id="@+id/tv_isihadistinggris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hijau"
+            android:textSize="15sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/hadistinggris"/>
+
+        <ImageView
+            android:id="@+id/iv_favorite"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="300dp"
+            android:layout_height="30dp"
+            android:src="@drawable/bookmark"/>
+    </LinearLayout>
+</LinearLayout>
