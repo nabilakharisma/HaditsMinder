@@ -1,6 +1,7 @@
 HadistMinder adalah aplikasi yang menampilkan beberapa hadist tertentu yang dapat diakses oleh penggunanya dan tersedia dalam 2 bahasa yaitu bahasa arab dan bahasa inggris. Aplikasi ini bertujuan untuk memberikan kemudahan akses dalam membaca dan mempelajari hadist-hadist yang tersedia
 
 Fitur :
+- Regis
 
 -Login dan Logout : Pengguna dapat login menggunakan username dan password masing-masing.
 
